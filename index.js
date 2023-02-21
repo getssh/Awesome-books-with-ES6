@@ -6,21 +6,6 @@ const showListSection = document.querySelector('.show-list');
 const book = document.querySelector('.book');
 let books = [];
 
-const addBook = (title, author) => {
-  let pushBook = {
-    id: Math.floor(Math.random() * Date.now()),
-    title: title,
-    author: author
-  }
-  books.push(pushBook);
-}
-
-addBook("Abebe", "kebede");
-addBook("Dereje", "Debela");
-addBook("Dereje", "Debela");
-
-console.log(books[0].title);
-
 let allBooks;
 const showList = () => {
   let bookContent = ``;
@@ -36,10 +21,26 @@ const showList = () => {
 
   book.innerHTML = bookContent;
   bookList.appendChild(book);
-  // bookList.appendChild(showListSection);
 }
 
 window.addEventListener('load', showList);
+
+const addBook = (title, author) => {
+  let pushBook = {
+    id: Math.floor(Math.random() * Date.now()),
+    title: title,
+    author: author
+  }
+  books.push(pushBook);
+  bookTitle.value = '';
+  bookAuthor.value = '';
+  showList();
+}
+
+addBtn.addEventListener('click', (event) => {
+  event.preventDefault();
+  addBook(bookTitle.value, bookAuthor.value);
+})
 
 const removeBook = (id) => {
   let filterBook = books.filter((book) => {
@@ -47,6 +48,8 @@ const removeBook = (id) => {
   })
 
   books = filterBook;
-  console.log(books); 
-  location.reload();
+  console.log(books);
+  showList()
 }
+
+console.log(books);
