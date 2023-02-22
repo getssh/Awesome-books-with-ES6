@@ -1,0 +1,49 @@
+body {
+  padding: 0 2rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  padding: 1rem;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.each-book {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10rem;
+
+}
+
+.rm-btn {
+  width: 5rem;
+  height: 2rem;
+}
