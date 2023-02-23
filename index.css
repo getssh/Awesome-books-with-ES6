@@ -1,41 +1,13 @@
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 2rem;
-  color: #FFFFFF;
-  margin-left: 1rem;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  margin-right: 2rem;
-}
-
-nav li:last-child {
-  margin-right: 0;
-}
-
-
-
 /* body {
   padding: 0 2rem;
-}
+} */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: aquamarine;
-  padding: 1rem;
+  background-color: #7FDBFF;
+  color: #333;
+  padding: 0.5rem 1.5rem;
 }
 
 main {
@@ -59,20 +31,77 @@ nav ul {
   column-gap: 2rem;
 }
 
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
 .book {
   display: flex;
   flex-direction: column;
-  row-gap: 1rem;
 }
 
 .each-book {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 10rem;
-
+  padding: 0 2rem;
 }
 
-.rm-btn {
+.submit-btn {
+  width: 5rem;
+  text-align: center;
+  margin-left: 4.5rem;
+}
+
+.add-book > input {
+  padding: 0.2rem 2rem;
+  text-align: left;
+}
+
+.remove-btn {
   width: 5rem;
   height: 2rem;
-} */
+  align-self: center;
+}
+
+.remove-btn:hover {
+  cursor: pointer;
+}
+
+.show-list {
+  display: block;
+  margin-top: 2rem;
+}
+
+.show-new, .show-contact {
+  display: none;
+  margin-top: 3rem;
+}
+
+.show-contact {
+  text-align: left;
+}
+
+.each-book:nth-child(even) {
+  background-color: #e9e9e9;
+}
+
+.each-book:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  background-color: #888;
+  color: #fff;
+  margin-top: 3rem;
+}

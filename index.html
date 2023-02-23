@@ -12,21 +12,21 @@
     <div class="logo">Awesome Books</div>
     <nav>
       <ul>
-        <li>List</li>
-        <li>Add New</li>
-        <li>Contact</li>
+        <li><a href="" class="list">List</a></li>
+        <li><a href="#show-add-book" class="add-new">Add New</a></li>
+        <li><a href="#show-contact" class="contact">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <div class="show-time"></div>
-    <div class="show-list">
+    <div class="show-list" id="show-books">
       <h2 class="book-header">All Awesome Books</h2>
       <section class="books">
-        <div class="book"></div>
+        <!-- <div class="book"></div> -->
       </section>
     </div>
-    <div class="add-new">
+    <div class="show-new" id="show-add-book">
       <h2>Add New Book</h2>
       <form action="" method="get" class="add-book">
         <input type="text" placeholder="Title" id="title" class="book-data">
@@ -38,7 +38,7 @@
         <button class="submit-btn">Add</button>
       </form>
     </div>
-    <div class="show-contact">
+    <div class="show-contact" id="show-contact">
       <h2>Contact Information</h2>
       <p>Do have any questions or you just want to say "Hello"? You can reach out to us!</p>
       <ul>
