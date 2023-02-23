@@ -26,10 +26,6 @@
 
 # 📖 [Awesome books: with ES6] <a name="about-project"></a>
 
-This is a mock website for an online web devlopment course giving company.
-
-<a href="https://www.loom.com/share/3db7cb933f16446ca79dd553370f2514">Loom Video Link</a>
-
 **[Awesome books: with ES6]** This is a project that will create, remove and store data to localsotrage and return the data on windows load.
 
 ## 🛠 Built With <a name="built-with"></a>
