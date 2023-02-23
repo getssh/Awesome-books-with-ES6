@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Awesome Books Es6</title>
+</head>
+<body>
+  <header>
+    <div class="logo">Awesome Books</div>
+    <nav>
+      <ul>
+        <li><a href="" class="list">List</a></li>
+        <li><a href="#show-add-book" class="add-new">Add New</a></li>
+        <li><a href="#show-contact" class="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="show-time"></div>
+    <div class="show-list" id="show-books">
+      <h2 class="book-header">All Awesome Books</h2>
+      <section class="books">
+        <!-- <div class="book"></div> -->
+      </section>
+    </div>
+    <div class="show-new" id="show-add-book">
+      <h2>Add New Book</h2>
+      <form action="" method="get" class="add-book">
+        <input type="text" placeholder="Title" id="title" class="book-data">
+        <br/>
+        <br/>
+        <input type="text" placeholder="Author" id="author" class="book-data">
+        <br/>
+        <br/>
+        <button class="submit-btn">Add</button>
+      </form>
+    </div>
+    <div class="show-contact" id="show-contact">
+      <h2>Contact Information</h2>
+      <p>Do have any questions or you just want to say "Hello"? You can reach out to us!</p>
+      <ul>
+        <li>Our email: mail@mail.com</li>
+        <li>Our phone number: 0012587387</li>
+        <li>Our address : Streetname 22, 84503 City, Country</li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <p>Copyright</p>
+    <p>Getayawkal @2023</p>
+  </footer>
+  <!-- <script src="./book.js"></script>
+  <script src="./bookList.js"></script> -->
+  <script src="./index.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/2.0.0/luxon.min.js"></script>
+</body>
+</html>
