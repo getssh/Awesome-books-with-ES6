@@ -48,10 +48,11 @@ export default class BookList {
 
     this.books.forEach((book) => {
       const bookElement = document.createElement('div');
-      bookElement.classList.add('book');
+      bookElement.classList.add('each-book');
       bookElement.innerHTML = `
         <h3>${book.title}</h3>
-        <p>By ${book.author}</p>
+        <p>by</p>
+        <p>${book.author}</p>
         <button data-id="${book.id}" class="remove-btn">Remove</button>
       `;
       bookListElement.appendChild(bookElement);
