@@ -24,13 +24,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Capstone, Online web course] <a name="about-project"></a>
+# 📖 [Awesome books: with ES6] <a name="about-project"></a>
 
 This is a mock website for an online web devlopment course giving company.
 
 <a href="https://www.loom.com/share/3db7cb933f16446ca79dd553370f2514">Loom Video Link</a>
 
-**[Capstone, Online web course]** This is a mock website for an online web devlopment course giving company. The website is responsive and daynamic.
+**[Awesome books: with ES6]** This is a project that will create, remove and store data to localsotrage and return the data on windows load.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -63,9 +63,11 @@ For this project, HTML, CSS and JavaScript has been used
 
 ### Key Features <a name="key-features"></a>
 
-- **[Shows inforamiton about the site]**
+- **[Allow clinets to add a book to the list]**
+- **[Allow clinets to remove a book from the list]**
 - **[Responsive for diffrent size of screens]**
 - **[Daynamically created website content]**
+- **[Shows local date and time]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,7 +75,7 @@ For this project, HTML, CSS and JavaScript has been used
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://getssh.github.io/web-course-capstone/)
+- [Live Demo Link](https://getssh.github.io/Awesome-books-with-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,9 +95,9 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/getssh/web-course-capstone
+git clone https://github.com/getssh/Awesome-books-with-ES6
 
-cd web-course-capstone
+cd Awesome-books-with-ES6
 
 ### Install
 
@@ -143,9 +145,9 @@ use github pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Animation and style to the mobile menu]**
+- [ ] **[Animation and style to the book list and tab]**
 - [ ] **[smooth transition]**
-- [ ] **[Add more breakpoints for better responsiveness]**
+- [ ] **[Add functionality to edit]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,7 +157,7 @@ use github pages
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/getssh/web-course-capstone/issues).
+Feel free to check the [issues page](https://github.com/getssh/Awesome-books-with-ES6/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
