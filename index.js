@@ -1,4 +1,6 @@
 import BookList from './modules/bookList.js';
+import { DateTime } from "./luxon.js";
+
 
 const bookList = new BookList();
 
@@ -16,6 +18,7 @@ const contact = document.querySelector('.contact');
 const showList  = document.querySelector('.show-list');
 const showAdd = document.querySelector('.show-new');
 const showContact = document.querySelector('.show-contact');
+const showTime = document.querySelector('.show-time');
 
 list.addEventListener('click', (e) => {
   e.preventDefault();
@@ -37,3 +40,8 @@ contact.addEventListener('click', (e) => {
   showAdd.style.display = "none";
   showContact.style.display = "block";
 })
+
+const dayTime = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
+const showLocalTime = () => { showTime.textContent = `${dayTime}`; };
+
+showLocalTime();
